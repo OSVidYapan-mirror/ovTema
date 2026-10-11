@@ -125,6 +125,16 @@ License=MIT
 
 Source:https://github.com/dbohdan/hicolor?tab=MIT-1-ov-file
 
+10. Dracula theme - Dracula Theme contributors
+License=MIT
+https://github.com/dracula/dracula-theme/blob/main/LICENSE
+
+11. GTK - Gbnome Foundation
+ 
+License=LGPL 2 only
+
+https://gitlab.gnome.org/GNOME/gtk/-/blob/main/COPYING
+
 Changes; None of these is orijinal in the first place but recreations that are derivatives therefore no further statement required.
 
 Copy of MIT (Hicolor);
