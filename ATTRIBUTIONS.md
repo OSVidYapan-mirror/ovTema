@@ -52,8 +52,12 @@ ___
     Source: https://developer.android.com/distribute/marketing-tools/brand-guidelines?hl=en
 
 12. Hicolor (used for inheriting) - Hicolor Contributors
+      License=MIT
+      (GTK license might affect it in that case its GPL 3.0 for entire GTK theme)
 
-   License=MIT
+14. Dracula theme - Dracula theme contributos 
+       License:=MIT
+       Source:https://github.com/dracula/dracula-theme/blob/main/LICENSE
 
    Source:https://github.com/dbohdan/hicolor?tab=MIT-1-ov-file
 
