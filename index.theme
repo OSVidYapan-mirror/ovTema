@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Wakanda
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Wakanda
+MetacityTheme=Wakanda
+ButtonLayout=menu:minimize,maximize,close

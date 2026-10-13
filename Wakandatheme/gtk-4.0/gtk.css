@@ -632,8 +632,8 @@ button.accent-button:hover, button.color-button:hover {
   box-shadow: 0 0 0 3px #ffff00;
   background-color: #999900; }
 button.accent-button:checked, button.accent-button:checked:backdrop, button.color-button:checked, button.color-button:checked:backdrop {
-  box-shadow: 0 0 0 3px  #999900;;
-  background-color:  #999900;; }
+  box-shadow: 0 0 0 3px  #999900;
+  background-color:  #999900; }
 
 /************
  * Calendar *
@@ -685,18 +685,6 @@ radio:disabled {-gtk-icon-source: -gtk-scaled(url("../assets/radio-disabled.png"
 radio:checked:disabled {-gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-disabled.png"));}
 radio:indeterminate {-gtk-icon-source: -gtk-scaled(url("../assets/radio-mixed.png"));}
 radio:indeterminate:disabled {-gtk-icon-source: -gtk-scaled(url("../assets/radio-mixed-disabled.png"));}
-
-.view.content-view check, iconview.content-view check, .view.content-view.check, iconview.content-view.check,
-{-gtk-icon-source: -gtk-scaled(url("../assets/checkbox-unchecked.png"));}
-
-.view.content-view radio:disabled, iconview.content-view radio:disabled, .view.content-view.radio:disabled, iconview.content-view.radio:disabled
-{-gtk-icon-source: -gtk-scaled(url("../assets/radio-unchecked-disabled.png"));}
-
-.view.content-view radio, iconview.content-view radio, .view.content-view.radio, iconview.content-view.radio,
-{-gtk-icon-source: -gtk-scaled(url("../assets/radio-unchecked.png"));}
-
-.view.content-view check:disabled, iconview.content-view check:disabled, .view.content-view.check:disabled, iconview.content-view.check:disabled
-{-gtk-icon-source: -gtk-scaled(url("../assets/checkbox-unchecked-disabled.png"));}
 
 
 checkbutton.text-button, radiobutton.text-button {
@@ -3697,24 +3685,22 @@ spinner {
  **********/
 switch {
   font-size: 1px;
-  min-width: 45px;
-  min-height: 27px;
-  background-size: 45px 27px;
+  min-width: 64px;
+  min-height: 32px;
+  background-size: 64px 32px;
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: -gtk-scaled(url("../assets/switch-off.svg")); }
-  switch:disabled {background-image: -gtk-scaled(url("../assets/switch-insensitive.svg")); }
+  background-image: -gtk-scaled(url("../assets/checkbox-unchecked.png")); }
+  switch:disabled {background-image: -gtk-scaled(url("../assets/switch-off.png")); }
   switch, switch slider {
     outline-color: transparent;
     color: transparent;
     border: none;
     box-shadow: none; }
-  switch:checked {background-image: -gtk-scaled(url("../assets/switch-on.svg")); }
+  switch:checked {background-image: -gtk-scaled(url("../assets/checkbox-unchecked.png")); }
   switch:checked slider {background-image: -gtk-scaled(url("../assets/switch-on.png")); }
   switch slider {
-    min-width: 1px;
-    min-height: 1px;
     background-repeat: no-repeat;
     background-position: left center;
     background-color: transparent;
@@ -3734,7 +3720,7 @@ switch {
   padding: 13px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(20, 23, 26, 0.8); }
+  background-color: rgba(70, 70, 0, 0.8); }
   .toolbar.osd.left, .toolbar.osd.right, .toolbar.osd.top, .toolbar.osd.bottom {
     border-radius: 0; }
 .toolbar.horizontal > separator {
@@ -3753,7 +3739,7 @@ searchbar > revealer > box {
   background-color: rgba(29, 30, 39, 0.97); }
   searchbar > revealer > box:backdrop {
     border-color: rgba(26, 27, 35, 0.91);
-    background-color: rgba(29, 30, 39, 0.9685);
+    background-color: rgba(70, 70, 0, 0.9685);
     box-shadow: none;
     transition: 200ms ease-out; }
 
